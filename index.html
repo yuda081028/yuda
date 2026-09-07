@@ -1,406 +1,109 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Yuda Muhamad Rismawan | Portfolio</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yuda Muhamad Rismawan | Portfolio</title>
+<meta name="description" content="Portfolio digital Yuda Muhamad Rismawan — Web Developer & UI Designer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+<header class="nav">
+  <a class="brand" href="#home"><span>Y</span> Yuda.</a>
+  <button class="menu-toggle" aria-label="Buka menu">☰</button>
+  <nav id="navLinks">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-    <!-- NAVBAR -->
-    <header class="navbar">
-
-        <a href="#home" class="logo">
-            Yuda<span>.</span>
-        </a>
-
-        <button class="menu-btn">☰</button>
-
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-
-    </header>
-
-
-    <main>
-
-        <!-- HERO -->
-        <section id="home" class="hero">
-
-            <div class="hero-text">
-
-                <p class="eyebrow">
-                    HELLO, I'M
-                </p>
-
-                <h1>
-                    Yuda Muhamad
-                    <br>
-                    <span>Rismawan</span>
-                </h1>
-
-                <p class="subtitle">
-                    Pelajar Rekayasa Perangkat Lunak yang tertarik
-                    pada Web Development, UI/UX Design,
-                    dan teknologi.
-                </p>
-
-                <div class="buttons">
-
-                    <a href="#projects" class="btn primary">
-                        Lihat Project
-                    </a>
-
-                    <a href="#contact" class="btn secondary">
-                        Hubungi Saya
-                    </a>
-
-                </div>
-
-            </div>
-
-
-          <img src="pp.jpg" alt="Yuda Muhamad Rismawan" class="profile-photo">
-
-    <div class="floating-card">
-        RPL Student
-        <br>
-        <small>Web & UI/UX</small>
+<main>
+<section id="home" class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">PORTFOLIO • 2026</p>
+    <h1>Halo, saya <span>Yuda Muhamad Rismawan.</span></h1>
+    <p class="lead">Saya membangun website yang rapi, modern, interaktif, dan mudah digunakan.</p>
+    <div class="actions">
+      <a class="btn primary" href="#projects">Lihat Project ↓</a>
+      <a class="btn secondary" href="#contact">Hubungi Saya</a>
     </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ABOUT -->
-        <section id="about" class="section">
-
-            <div class="section-title">
-
-                <p>ABOUT ME</p>
-
-                <h2>
-                    Tentang Saya
-                </h2>
-
-            </div>
-
-
-            <div class="about-grid">
-
-                <div class="about-box">
-
-                    <h3>
-                        Halo! Saya Yuda 👋
-                    </h3>
-
-                    <p>
-                        Saya adalah seorang pelajar jurusan
-                        Rekayasa Perangkat Lunak (RPL) yang
-                        memiliki ketertarikan pada dunia
-                        pemrograman dan desain antarmuka.
-                    </p>
-
-                    <p>
-                        Saya senang mempelajari teknologi baru,
-                        membuat website, mengolah database,
-                        serta merancang tampilan aplikasi yang
-                        sederhana dan mudah digunakan.
-                    </p>
-
-                </div>
-
-
-                <div class="info-list">
-
-                    <div>
-                        <b>Nama</b>
-                        <span>
-                            Yuda Muhamad Rismawan
-                        </span>
-                    </div>
-
-                    <div>
-                        <b>Status</b>
-                        <span>
-                            Pelajar
-                        </span>
-                    </div>
-
-                    <div>
-                        <b>Jurusan</b>
-                        <span>
-                            Rekayasa Perangkat Lunak
-                        </span>
-                    </div>
-
-                    <div>
-                        <b>Fokus</b>
-                        <span>
-                            Web Development & UI/UX
-                        </span>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- SKILLS -->
-        <section id="skills" class="section alt">
-
-            <div class="section-title">
-
-                <p>MY SKILLS</p>
-
-                <h2>
-                    Keahlian
-                </h2>
-
-            </div>
-
-
-            <div class="skills">
-
-                <div class="skill">
-
-                    <span>HTML</span>
-                    <b>90%</b>
-
-                    <i>
-                        <em style="width:90%"></em>
-                    </i>
-
-                </div>
-
-
-                <div class="skill">
-
-                    <span>CSS</span>
-                    <b>85%</b>
-
-                    <i>
-                        <em style="width:85%"></em>
-                    </i>
-
-                </div>
-
-
-                <div class="skill">
-
-                    <span>JavaScript</span>
-                    <b>70%</b>
-
-                    <i>
-                        <em style="width:70%"></em>
-                    </i>
-
-                </div>
-
-
-                <div class="skill">
-
-                    <span>Dart / Flutter</span>
-                    <b>75%</b>
-
-                    <i>
-                        <em style="width:75%"></em>
-                    </i>
-
-                </div>
-
-
-                <div class="skill">
-
-                    <span>MySQL</span>
-                    <b>75%</b>
-
-                    <i>
-                        <em style="width:75%"></em>
-                    </i>
-
-                </div>
-
-
-                <div class="skill">
-
-                    <span>Figma / UI UX</span>
-                    <b>80%</b>
-
-                    <i>
-                        <em style="width:80%"></em>
-                    </i>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- PROJECTS -->
-        <section id="projects" class="section">
-
-            <div class="section-title">
-
-                <p>MY WORK</p>
-
-                <h2>
-                    Project Saya
-                </h2>
-
-            </div>
-
-
-            <div class="projects">
-
-
-                <!-- PROJECT 1 -->
-                <article class="project">
-
-                    <div class="project-icon">
-                        01
-                    </div>
-
-                    <div>
-
-                        <span class="tag">
-                            WEB DEVELOPMENT
-                        </span>
-
-                        <h3>
-                            Website Kasir
-                        </h3>
-
-                        <p>
-                            Website kasir dengan fitur CRUD
-                            untuk mengelola data produk
-                            dan transaksi.
-                        </p>
-
-                        <a href="#">
-                            Lihat Project →
-                        </a>
-
-                    </div>
-
-                </article>
-
-
-                <!-- PROJECT 2 -->
-                <article class="project">
-
-                    <div class="project-icon">
-                        02
-                    </div>
-
-                    <div>
-
-                        <span class="tag">
-                            DATABASE
-                        </span>
-
-                        <h3>
-                            Database Project
-                        </h3>
-
-                        <p>
-                            Perancangan database dengan tabel,
-                            relasi, dan pengelolaan data
-                            menggunakan MySQL.
-                        </p>
-
-                        <a href="#">
-                            Lihat Project →
-                        </a>
-
-                    </div>
-
-                </article>
-
-
-            </div>
-
-        </section>
-
-
-        <!-- CONTACT -->
-        <section id="contact" class="section contact">
-
-            <div class="section-title">
-
-                <p>GET IN TOUCH</p>
-
-                <h2>
-                    Hubungi Saya
-                </h2>
-
-            </div>
-
-
-            <div class="contact-card">
-
-                <h3>
-                    Let's work together.
-                </h3>
-
-                <p>
-                    Jika ingin berkomunikasi atau melihat
-                    project saya, silakan hubungi melalui
-                    kontak berikut.
-                </p>
-
-
-                <div class="contact-links">
-
-                    <a href="mailto:maftuhyuda87@gmail.com">
-                        ✉️ Email
-                    </a>
-
-                    <a href="#">
-                        ◎ 0838-0590-5544
-                    </a>
-
-                    <a href="https://www.linkedin.com/in/yuda-muhamad-rismawan-4b2a86432/">
-                        ◉ Linkedln
-                    </a>
-
-                </div>
-
-            </div>
-
-        </section>
-
-    </main>
-
-
-    <!-- FOOTER -->
-    <footer>
-
-        © 2026 Yuda Muhamad Rismawan.
-        All Rights Reserved.
-
-    </footer>
-
-
-    <script src="script.js"></script>
-
+    <div class="mini-stats">
+      <div><strong>01</strong><small>Web Project</small></div>
+      <div><strong>HTML</strong><small>Core Skill</small></div>
+      <div><strong>CSS</strong><small>UI Styling</small></div>
+    </div>
+  </div>
+  <div class="hero-photo">
+    <div class="photo-frame"><img src="assets/foto-yuda.jpg" alt="Foto Yuda Muhamad Rismawan"></div>
+    <div class="photo-tag">Available for projects <i></i></div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="section-head"><p class="eyebrow">01 — ABOUT</p><h2>Tentang Saya</h2></div>
+  <div class="about-grid">
+    <div class="about-card">
+      <p>Saya <b>Yuda Muhamad Rismawan</b>, seorang pembelajar di bidang pengembangan web yang tertarik pada pembuatan tampilan website, sistem sederhana, dan pengalaman pengguna yang nyaman.</p>
+      <p>Portfolio ini menjadi tempat untuk menampilkan hasil project dan kemampuan yang sedang saya kembangkan.</p>
+    </div>
+    <div class="facts">
+      <div><span>Nama</span><b>Yuda Muhamad Rismawan</b></div>
+      <div><span>Fokus</span><b>Web Development</b></div>
+      <div><span>Project unggulan</span><b>Web Kasir</b></div>
+      <div><span>Teknologi</span><b>HTML • CSS • JavaScript</b></div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="section alt">
+  <div class="section-head"><p class="eyebrow">02 — SKILLS</p><h2>Kemampuan</h2></div>
+  <div class="skills-grid">
+    <article class="skill"><span>01</span><h3>HTML</h3><p>Menyusun struktur halaman website yang terorganisir dan responsif.</p></article>
+    <article class="skill"><span>02</span><h3>CSS</h3><p>Membuat layout, komponen, responsive design, dan tampilan visual.</p></article>
+    <article class="skill"><span>03</span><h3>JavaScript</h3><p>Membuat interaksi website agar lebih hidup dan mudah digunakan.</p></article>
+    <article class="skill"><span>04</span><h3>UI Design</h3><p>Memikirkan hierarki informasi, spacing, tombol, dan pengalaman pengguna.</p></article>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <div class="section-head"><p class="eyebrow">03 — PROJECTS</p><h2>Project Saya</h2></div>
+  <article class="project-card">
+    <div class="project-preview">
+      <div class="preview-top"><span></span><span></span><span></span></div>
+      <div class="preview-body">
+        <aside><b>✦ Kasir App</b><small>Dashboard</small><small>Item</small><small>Transaksi</small><small>Pelanggan</small></aside>
+        <div><small>DATABASE KASIR</small><h3>Dashboard</h3><div class="preview-stats"><i></i><i></i><i></i></div><div class="preview-table"></div></div>
+      </div>
+    </div>
+    <div class="project-info">
+      <p class="eyebrow">PROJECT 01</p>
+      <h3>Web Kasir — Yuda Muhamad Rismawan</h3>
+      <p>Website dashboard kasir dengan menu Dashboard, Item, Transaksi, Kasir, Pelanggan, dan Laporan. Tampilan project sumber menggunakan HTML serta stylesheet terpisah.</p>
+      <div class="chips"><span>HTML</span><span>CSS</span><span>Dashboard</span><span>POS</span></div>
+      <a class="btn primary" href="project-kasir/index.html" target="_blank">Buka Web Kasir ↗</a>
+    </div>
+  </article>
+</section>
+
+<section id="contact" class="section contact">
+  <div class="section-head"><p class="eyebrow">04 — CONTACT</p><h2>Mari Terhubung</h2></div>
+  <div class="contact-card">
+    <div><p class="lead">Punya ide project atau ingin melihat project saya? Silakan hubungi saya.</p></div>
+    <div class="contact-links">
+      <a href="mailto:yuda@example.com">✉ Email</a>
+      <a href="#projects">▣ Project</a>
+      <a href="#home">↑ Kembali ke atas</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><span>© 2026 Yuda Muhamad Rismawan</span><a href="#home">Yuda. ↑</a></footer>
+<script src="script.js"></script>
 </body>
 </html>
